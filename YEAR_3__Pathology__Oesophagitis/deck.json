@@ -1,0 +1,337 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "dbc5a6fe-0caf-11ec-907d-acde48001122",
+    "deck_config_uuid": "dbc5d912-0caf-11ec-907d-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "dbc5d912-0caf-11ec-907d-acde48001122",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 60
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "YEAR 3::Pathology::Oesophagitis",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Clinical symptoms of oesophagitis include:<br>1. {{c1::Dysphagia}} - difficulty swallowing<br>2. {{c1::Heartburn}} - episodic substernal pain<br>3. {{c1::Odynophagia}} - painful swallowing&nbsp;",
+                ""
+            ],
+            "guid": "Cd-O@rGVC{",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Clinical symptoms of oesophagitis can overlap with these different conditions:<br>1. {{c1::Chest}} pain<br>2. Functional {{c1::dyspepsia}}<br>3. {{c1::Pericarditis}} - inflammation",
+                ""
+            ],
+            "guid": "c&<n2qWbBX",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Heartburn}} is episodic substernal pain, worse after meals and on reclining and relieved, temporarily by antacids. Can be accompanied by complaints of a bitter taste in the mouth (regurgitation) or a welling up in the mouth of a salty tasting (salivary derived) fluid.<br>Substernal pain relieved by antacids and recurs at least once per week over an extended period - diagnosis of {{c1::GERD}}",
+                ""
+            ],
+            "guid": "EP_6!!..?[",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Odynophagia - painful swallowing, acute and severe form of esophagitis, typically with mucosal {{c1::ulceration}}.<br>Experienced substernally as an aching or stabbing pain aggravated by the act of swallowing, even swallowing saliva.<br>Common in oesophagitis caused by infeciton, pills and radiation, but rare in oesophagitis caused by {{c1::reflux}}.&nbsp;",
+                ""
+            ],
+            "guid": "O5fvn{5[:",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Investigative procedures that are useful in diagnosing oesophagitis include an upper&nbsp;{{c1::endoscopy.}}<br>It is very sensitive (90%) and specific, provides direct {{c1::visualization}}, and can perform therapeutic interventions.",
+                ""
+            ],
+            "guid": "DYX>&-B9u&",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lacerations in oesophagitis are mainly {{c1::longitudinal}} tears near the gastroesophageal junction, and is mostly associated with alcoholic binges. It happens most likely due to {{c1::mechanical}} trauma in conjunction with failure of gastroesophageal muscular relaxation. Mucosal defect of varying ranges, {{c1::supportive}} therapy usually given.<br>Complications include mild/moderate haemorrhage, however it rarely ruptures (Boerhaave syndrome).&nbsp;",
+                ""
+            ],
+            "guid": "mGIdS&.K:a",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Chemical}} oesophagitis:<br>Stratified squamous mucosa damage by alcohol, corrosive acids or alkalis, heavy smoking, hot fluids.<br>{{c1::Pill}}-induced oesophagitis can also occur.",
+                ""
+            ],
+            "guid": "HcQN`lhL5{",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Infectious oesophagitis:<br>Most commonly seen in {{c1::immunocompromised}} patients<br>1. Candia<br>2. Herpes Simplex<br>3. CMV",
+                ""
+            ],
+            "guid": "Mr-s2|$;LY",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Eosinophilic oesophagitis is an {{c1::immunologically}} mediated entity (food allergy). Histologically characterized by large numbers of {{c1::intraepithelial}} eosinophils.&nbsp;<br>Acid {{c1::reflux}} is not a prominent cause, PPIs do not provide relief. Can manifest as chest pain or heartburn, solid food {{c1::dysphagia}} and food impaction are characteristic, feeding intolerance or GERD like symptoms in children.&nbsp;",
+                ""
+            ],
+            "guid": "IRc^@6{/@B",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Longitudinal {{c1::furrows}} can be seen in eosinophilic oesophagitis, and reflux oesophagitis as well. Whitish {{c1::plaque}} and {{c1::circular}} rings are also diagnostics.&nbsp;",
+                ""
+            ],
+            "guid": "Fw,YZXo#!6",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Histological features of eosinophilic oesophagitis include:<br>1. {{c1::Dilated}} intercellular spaces<br>2. {{c1::Intraepithelial}} eosinophils<br>3. Basal layer {{c1::hyperplasia}}<br>",
+                ""
+            ],
+            "guid": "f7i/gUa%n}",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Treatment of eosinophilic oesophagitis include:<br>- Removal of {{c1::allergic}} source (PPI may be of limited use)<br>- {{c1::Topical}} steroids such as fluticasone and budesonide<br>- May require {{c1::dilation}} treatments if there are stricturers",
+                ""
+            ],
+            "guid": "l/M$)MOq`}",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "GERD oesophagitis: condition in which the gastric or {{c1::duodenal}} contents leak backwards from the stomach into the oesophagus. LES muscles do not close properly.&nbsp;<br>Long term consequences include:<br>1. Bleeding (almost never massive)<br>2. {{c1::Stricture}} (abnormal tightening)<br>3. {{c1::Barrett's}} esophagus with possible {{c1::barrett}} ulcer",
+                ""
+            ],
+            "guid": "z34UI*/;Y8",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Risk factors for GERD include:<br>Hiatal {{c1::hernia}}<br>Pregnancy<br>Scleroderma<br>Obesity<br>Cigarettes<br>Alcohol<br>Certain medicines<br>{{c1::Inversely}} associated with H.pylori infection<br>",
+                ""
+            ],
+            "guid": "w|H>3nsJm`",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pathophysiology of GERD:<br>A. {{c1::Abnormal}} lower esophageal sphincter<br>- functional (frequent transient LES relaxation)<br>- mechanical (hypotensive LES)<br>- foods (coffee, alcohol)<br>- medications (CCBs)<br>- location (hiatal hernia)<br><br>or<br><br>B. Increased {{c1::abdominal}} pressure",
+                ""
+            ],
+            "guid": "wOUA;dz?F,",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Diagnostic evaluations of GERD include:<br>1. Upper {{c1::endoscopy}}<br>2. Esophageal {{c1::biopsy}} - basal cell hyperplasia, oedema or inflammatory findings<br>3. pH monitoring by pH probe<br>Preffered method for establishing GERD as cause of symptoms:<br>Empirical trial of acid suppression with {{c1::PPI}} - normalizes acidity in 95% of subjects",
+                ""
+            ],
+            "guid": "Mu-e[s4}i,",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Histology of GERD:<br>1. {{c1::Elongation}} of lamina propria<br>2. Basal cell {{c1::hyperplasia}}<br>3. Presence of lymphocytes, eosinophils (not as many as eosinophilic esophagitis), neutrophils",
+                ""
+            ],
+            "guid": "wc{6g/f(ep",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complications of GERD include:<br>1. {{c1::Erosive}} esophagitis (responsible for 40-60% of GERD symptoms)<br>&nbsp;- severity of symptoms fail to match severity of {{c1::erosive}} esophagitis<br>2. Esophageal {{c1::stricture}}<br>&nbsp;- result of healing of {{c1::erosive}} esophagitis<br>&nbsp;- may need dilation",
+                ""
+            ],
+            "guid": "FrHzB#j46w",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Most dangerous complication of GERD is {{c1::Barrett's}} esophagus.&nbsp;<br>- intestinal {{c1::metaplasia}} of the esophagus<br>- associated with the development of {{c1::adenocarcinoma}}<br>- salmon pink transition (indicator)<br>- complete replacement of {{c1::squamous}} to intestinal matter",
+                "<div><span style=\"color: rgb(165, 48, 16);\">´</span><span style=\"color: rgb(64, 64, 64);\">Acid damages lining of esophagus and causes chronic </span><span style=\"color: rgb(64, 64, 64);\">oesophagitis</span></div>\n<div><span style=\"color: rgb(165, 48, 16);\">´</span><span style=\"color: rgb(64, 64, 64);\">Damaged area heals in a metaplastic process and\nabnormal columnar cells replace squamous cells</span></div>\n<div><span style=\"color: rgb(165, 48, 16);\">´</span><span style=\"color: rgb(64, 64, 64);\">This specialized intestinal metaplasia can progress to\ndysplasia and adenocarcinoma</span></div>"
+            ],
+            "guid": "JRA9YYn4V3",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Histology of barrett's esophagus:<br>{{c1::Goblet}} cells - accumulation of cytoplasmic intestinal-type mucin<br>Universal presence of {{c1::chronic}} inflammation<br>Surface glandular epithelium with tall columnar cells",
+                ""
+            ],
+            "guid": "LuXcY1[tJe",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Low grade dysplasia in barrett's esophagus:<br>Nuclear {{c1::enlargement}}<br>Nuclear hyperchromasia<br>Nuclear contour {{c1::irregularity}}<br><br>High grade dysplasia:<br>Enlarged {{c1::hyperchromatic}} nuclei with little {{c1::cytoplasm}} in cells<br>Surface involvement required to distinguish from low grade",
+                ""
+            ],
+            "guid": "vlx)Tj?#xJ",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "GERD treatment:<br>{{c1::Relieve}} symptoms and prevent relapse and complications<br>Lifestyle modications<br>{{c1::Antacids}} or {{c1::antacid}}/alginate combination - H2 blockers, PPI&nbsp;",
+                ""
+            ],
+            "guid": "f}7g)_M$nA",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        }
+    ]
+}
