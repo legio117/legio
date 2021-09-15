@@ -1,0 +1,292 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "1dd54bd0-1656-11ec-b491-acde48001122",
+    "deck_config_uuid": "dbc5d912-0caf-11ec-907d-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "dbc5d912-0caf-11ec-907d-acde48001122",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 60
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-5fb27f8867cbf039e6cf7da739cf6c30c3fd986f.jpg",
+        "paste-8edfd8a4d5232973e410facaab0ef4fdb8b30db1.jpg",
+        "paste-d068624dc2a26ede0a86079cdf01f622601eb2b6.jpg",
+        "paste-f49606cd6e93554e7bd9ca7372eafc89eef093b4.jpg"
+    ],
+    "name": "YEAR 3::Pathology::09/13 Diagnosing Diabetes Mellitus",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Diabetes\nMellitus:<br><br><div>A\nterm for several diseases of abnormal {{c1::carbohydrate}} metabolism that are\ncharacterized by {{c1::hyperglycaemia}}.</div>\n<div>Associated\nwith relative or absolute impairment of insulin secretion by the islet cells of\nthe {{c1::pancreas}}, along with varying degrees of peripheral resistance to the action\nof insulin.</div>",
+                ""
+            ],
+            "guid": "2bA}R7a?:",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Normal\nCarbohydrate Metabolism<br><br><div>•Blood\nglucose levels are normally maintained within a relatively narrow range ({{c1::4}}-{{c1::8}}\nmmol/L)</div>\n<div>•This\nensures that glucose is available as</div>\n<div>–an\n{{c1::energy}} source (oxidised to H2O and\nCO2 yielding energy in the from of ATP)</div>\n<div>–a\nprecursor to complex {{c1::carbohydrates}}, proteins and {{c1::lipids}}</div>\n<div>•On\neating</div>\n<div>–Complex\ncarbohydrates are {{c1::hydrolysed}} to simple sugars (including glucose, fructose\n&amp; galactose) that are absorbed through the small {{c1::intestine}} into the\nbloodstream.</div>\n<div>–The\nrise in blood glucose stimulates insulin release from the pancreas.</div>\n<div>–Insulin\nstimulates tissues to use the excess blood glucose:</div>\n<div>•Activating\nglucose uptake into {{c1::muscle}} &amp; adipose tissue</div>\n<div>•Activating\nglycogen synthesis &amp; inhibiting {{c1::glycogenolysis}} in muscle &amp; liver cells</div>\n<div>•Inhibiting\ngluconeogenesis</div>\n<div>–Blood\nglucose levels fall</div>",
+                ""
+            ],
+            "guid": "HFAU3e|uW_",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Normal\nCarbohydrate Metabolism<br><br><div>•Between\nmeals</div>\n<div>–As\nblood glucose levels fall insulin secretion by the pancreas slows and glucagon\nis released. The impact of this change to the hormonal milieu is:</div>\n<div>–{{c1::Gluconeogenesis}}\nand glycogenolysis are activated to maintain blood glucose levels</div>\n<div>•In\nprolonged fasting</div>\n<div>–Lipids\nbecome an increasingly important energy source</div>\n<div>–Fatty\nacids are released from adipose tissue ({{c1::lipolysis}}) and these can be used as an\nenergy source by a variety of tissues (β-{{c1::oxidation}})</div>\n<div>–Fatty\nacids cannot cross the blood brain barrier. When blood glucose levels are low,\nliver cells partially metabolise fatty acids releasing {{c1::ketone}} bodies into the\nbloodstream. {{c1::Ketone}} bodies can cross the blood brain barrier &amp; can be taken\nup by brain cells as an energy source.</div>\n<br>",
+                "<img src=\"paste-f49606cd6e93554e7bd9ca7372eafc89eef093b4.jpg\">"
+            ],
+            "guid": "qkZ)qzN%*2",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deficiency/Resistance\nto Insulin<br><br><div>•Without\ninsulin glucose is not taken up by muscle &amp; adipose tissue</div>\n<div>•{{c1::Glycogenolysis}}\nis activated in liver and muscle</div>\n<div>•{{c1::Proteins}}\nare catabolised for\nenergy &amp; gluconeogenesis in many tissues</div>\n<div>•Blood\nglucose levels rise</div>\n<div>•Fatty\nacids are released into the bloodstream</div>\n<div>–used\nas an energy source</div>\n<div>–triglycerides\nresynthesized in {{c1::liver}} &amp; repackaged into {{c1::lipoproteins}} (increased risk of atherosclerosis)</div>\n<div>–Fatty\nacids are partially metabolised to ketone bodies that can be taken up as an\nenergy source by brain cells</div>",
+                ""
+            ],
+            "guid": "CeMw9jTc=,",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Symptoms\nassociated with hyperglycaemia and glycosuria<br><br><div>•{{c1::Polyuria}}</div>\n<div>–Filtered\nglucose exceeds tubular reabsorption threshold</div>\n<div>–Osmotic\ndiuresis created by glucose in urine</div>\n<div>•{{c1::Polydipsia}}</div>\n<div>–Combination\nof hyperglycaemia and water loss in urine result in plasma {{c1::hyperosmolality}}</div>\n<div>–Hypertonicity\nis detected by specialised {{c1::hypothalamic}} cells (osmoreceptors). These\nosmoreceptors, along with angiotensin II, released secondary to volume\ndepletion, stimulate thirst centres</div>\n<div>•<span style=\"font-weight: bold; font-style: italic;\">Weight loss</span></div>\n<div>–Glycosuria\nand excess utilisation of {{c1::fat}} and protein as energy source </div>\n<div>•<span style=\"font-weight: bold; font-style: italic;\">Fatigue </span>and <span style=\"font-weight: bold; font-style: italic;\">hunger</span></div>\n<div>–Inability\nof blood glucose to enter cells for {{c1::glycolysis}}</div>",
+                ""
+            ],
+            "guid": "nqOb(:oN}`",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Diagnosing\nDiabetes Mellitus<br><br><div><span style=\"font-weight: bold;\">Diagnosing diabetes mellitus is\nbased on demonstrating hyperglycaemia through:</span></div>\n<div></div>\n<div><span style=\"font-weight: bold;\">1. Diabetes&nbsp;</span>{{c1::symptoms}}<span style=\"font-weight: bold;\">&nbsp;(polyuria,\npolydipsia and unexplained weight loss) plus:</span></div>\n<div>a random {{c1::venous}} plasma glucose\nconcentration &gt; 11.1 mmol/L</div>\n<div>&nbsp; or</div>\n<div>a fasting plasma glucose concentration\n&gt; {{c1::7.0}} mmol/L</div>\n<div>&nbsp; or</div>\n<div>plasma glucose concentration &gt; {{c1::11.1}}\nmmol/L two hours after {{c1::75g}} anhydrous glucose in an oral glucose tolerance test\n(OGTT).</div>\n<div></div>\n<div><span style=\"font-weight: bold;\">2. With no symptoms diagnosis\nrequires elevated glucose levels on at least&nbsp;</span>{{c1::two}}<span style=\"font-weight: bold;\">&nbsp;occasions</span></div>\n<div></div>\n<div><span style=\"font-weight: bold;\">3. An HbA</span><span style=\"font-weight: bold;\">1c</span><span style=\"font-weight: bold;\"> of &gt;</span>{{c1::48}}<span style=\"font-weight: bold;\">&nbsp;mmol/mol</span></div>\n<div></div>\n<div><span style=\"font-weight: bold;\">Note: None of these tests are\nspecific for type of diabetes. Type is usually established based on clinical\npresentation.</span></div>",
+                ""
+            ],
+            "guid": "uHgcj:hCvp",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Plasma\nGlucose<br><br><div>•Plasma\nis blood minus the cellular constituents (e.g. red blood cells, white blood\ncells and {{c1::platelets}})</div>\n<div>•Important\npre-analytical issues in ensuring accurate plasma glucose levels</div>\n<div>–Clarity\non patient state (fasting, 2 hour post glucose load, random)</div>\n<div>•Critical\nto document time and fasting state of patient for accurate interpretation</div>\n<div>–Specimen\ntube must prevent blood clotting</div>\n<div>•If\na clot forms, it may be more difficult to get a clean separation of the cells\nfrom the plasma</div>\n<div>•To\nprevent clotting the collection tubes we use contain {{c1::oxalate}} salts. {{c1::Oxalate}}\nprevents clotting by forming {{c1::insoluble}} complexes with the calcium in the blood\nwhich is required for clotting</div>\n<div>–Specimen\ntube must prevent {{c1::glycolysis}}</div>\n<div>•Blood\ncells will continue to metabolise glucose in vitro</div>\n<div>•Blood\ntubes for measuring glucose contain sodium {{c1::fluoride}} to inhibit enzymes involved\nin {{c1::glycolysis}}.&nbsp;</div>",
+                ""
+            ],
+            "guid": "CybKU.)T{d",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hb\nA1c<br><br><div>•Proteins\nare continuously undergoing non-enzymatic chemically modification by glucose\n({{c1::glycation}})</div>\n<div>–Results\nin advanced glycation products (AGE) which may contribute to {{c1::microvascular}} and\nmacrovascular complications of diabetes</div>\n<div>•Hb A1c is formed by the glycation of the <span style=\"font-style: italic;\">N</span>-terminal\n{{c1::valine}} residue of each {{c1::β}}-chain\nof Hb A with glucose</div>\n<div>•Formation\nof Hb A1c is essentially {{c1::irreversible}}</div>\n<div>•The\nconcentration in the blood depends on the lifespan of the red blood cell\n(average 120 days) and the blood glucose concentration</div>\n<div>•It\ntherefore reflects the integrated value for blood glucose over the preceding\n6-8 weeks</div>",
+                "<img src=\"paste-5fb27f8867cbf039e6cf7da739cf6c30c3fd986f.jpg\">largely reflects glycaemic control.<br>Can be expressed as percentage or mmol/mol"
+            ],
+            "guid": "A!3dcpFaV6",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HbA1c in diagnosis<br><br><div>•DCCT\nunits for Hb A1c were given as a % of Hb that is glycated</div>\n<div>•We\nnow use IFCC units (mmol of Hb A1c per\nmol of Hb A)</div>\n<div>•Hb A1c has been accepted as a diagnostic\nindicator of diabetes mellitus at &gt;{{c1::48}} mmol/mol•Caution\nrequired with interpretation because of:</div>\n<div>–Shortened\n{{c1::RBC}} lifespan could result in a ↓ Hb A1c</div>\n<div>•{{c1::Haemolytic}}\ndisease</div>\n<div>•Recent\nsignificant blood loss</div>\n<div>–Lengthened\n{{c1::RBC}} lifespan could result in a ↑ HbA1c</div>\n<div>•{{c1::Iron}}\ndeficiency anaemia</div>\n<div>–Haemoglobin\nvariants (e.g. Hb S, Hb F, Hb C) can interfere with RBC lifespan, Hb glycation\n&amp; analytical methods</div>",
+                "<img src=\"paste-8edfd8a4d5232973e410facaab0ef4fdb8b30db1.jpg\">"
+            ],
+            "guid": "IU*1Im1vbE",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Sickle cell trait}} can interfere with accuracies in measuring and diagnosing diabetes with HbA1C.&nbsp;",
+                "<img src=\"paste-d068624dc2a26ede0a86079cdf01f622601eb2b6.jpg\">"
+            ],
+            "guid": "F^,71}s[YK",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Glycosuria<br><br><div>•Glycosuria\n(or glucosuria) is excretion of glucose in the urine</div>\n<div>•How\ndiabetes (‘to pass through’) mellitus (‘honey-sweet’) got its name!</div>\n<div>•Filtered\nglucose is normally reabsorbed in the {{c1::proximal}} renal tubule</div>\n<div>•However,\nthe renal threshold for glucose reabsorption is ~{{c1::10}} mmol/L &amp; if blood\nglucose is higher than this, glucose will be present in the urine</div>\n<div>•Testing\nfor glycosuria is <u><span style=\"font-weight: bold;\">not\nan accepted way of diagnosing diabetes</span></u></div>\n<div>–Not\n{{c1::sensitive}}</div>\n<div>•moderate\n{{c1::hyperglycaemia}} may not result in glycosuria</div>\n<div>–Not\nspecific</div>\n<div>•renal\nthreshold for glucose reabsorption is {{c1::variable}}</div>\n<div>•some\npeople, especially {{c1::pregnant}} women and children, excrete glucose with relatively\nnormal blood glucose</div>",
+                ""
+            ],
+            "guid": "I2!SsKG.l`",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Diabetes\nRisk States<br><br><div>•Impaired\nFasting Glycaemia/Glucose</div>\n<div>–Fasting\nglucose {{c1::5}}.6-{{c1::7.0}} mmol/l</div>\n<div>–Suggests\n{{c1::hepatic}} insulin resistance</div>\n<div>–Associated\nwith a markedly increased risk of developing type {{c1::II}} diabetes mellitus</div>\n<div>•{{c1::Impaired}}\nGlucose Tolerance</div>\n<div>–OGTT\n2h glucose {{c1::7.8}}-11.0 mmol/l</div>\n<div>–Suggests\n{{c1::muscle}} insulin\nresistance</div>\n<div>–Not\nassociated with increased risk of microvascular disease but at substantially\nincreased risk of macrovascular disease</div>\n<div>•As\nHbA1c climbs from 34 to 48 mmol/l the {{c1::5}} year\nrisk of T2DM increases markedly</div>",
+                ""
+            ],
+            "guid": "MYdx7h+M7P",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "DM\nClassification<br><br><div>•Type\nI Diabetes Mellitus</div>\n<div>–In\nIreland ~15,000\ncases</div>\n<div>•Type\nII Diabetes Mellitus</div>\n<div>–In\nIreland ~210,000 cases</div>\n<div>•Maturity\nOnset Diabetes of the Young (MODY)</div>\n<div>–2\nto 5 percent of diabetes. </div>\n<div>–Non-insulin\ndependent diabetes diagnosed at a young age (&lt;25 years) with autosomal\n{{c1::dominant}} transmission and lack of auto-antibodies. </div>\n<div>–Many\npatients are misclassified as having either type 1 or 2 diabetes.</div>\n<div>•Diseases\nof the {{c1::Pancreas}}</div>\n<div>–Cystic\nfibrosis, hereditary hemochromatosis, chronic pancreatitis, </div>\n<div>•Endocrinopathies</div>\n<div>–Cushing\nsyndrome &amp; acromegaly can lead to glucose dysregulation</div>\n<div>•{{c1::Drug}}-induced\ndiabetes</div>\n<div>–A\nvariety of drugs can impair glucose tolerance including corticosteroids,\nantipsychotics, immunosuppressants</div>\n<div>•Gestational\nDiabetes Mellitus</div>\n<div>–~2%\nof women develop a form of diabetes in pregnancy</div>\n<div>–Increased\nrisk of several adverse outcomes in pregnancy</div>\n<div>•Pre-eclampsia,\nhydramnios, macrosomia, perinatal mortality, miscarriage, etc.</div>\n<div>–Usually\nresolves post-{{c1::partum}} but mothers at increased risk of developing Type {{c1::II}} DM</div>\n<br>",
+                ""
+            ],
+            "guid": "Cpw!4A3:l6",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "T1DM\nClinical Presentation<br><br><div>•Peak\nage is around {{c1::puberty}}, but it may present at any age</div>\n<div>•The\nmost common presentation is with clinical features associated with\nhyperglycaemia</div>\n<div>–{{c1::Polyuria}},\n{{c1::polydipsia}}, fatigue, hunger, weight loss, {{c1::blurred}} vision</div>\n<div>•Timeframe</div>\n<div>–Days,\nweeks or months</div>\n<div>–Shorter\nin children, more insidious in adults</div>\n<div>•Infection\ncommonly {{c1::precipitates}} the initial presentation</div>\n<div>–Fever,\nsore throat, cough, dysuria</div>\n<div>•In\npractice, at diagnosis patients with T1DM commonly have glucose levels of {{c1::15}}-30\nmmol/L and about 25% present with diabetic {{c1::ketoacidosis}}<br><div>•Results\nfrom the autoimmune destruction of the insulin-producing beta cells in the\n{{c1::pancreas}}.</div>\n<div>•Antibodies\nare often detectable to:</div>\n<div>–insulin\n- particularly in children</div>\n<div>–{{c1::65}}-kD\nisoform of glutamic acid\n{{c1::decarboxylase}} (GAD65) - particularly in adults</div>\n<div>–islet\ncells</div></div>",
+                ""
+            ],
+            "guid": "M,q&asJ:)4",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Determinants\n&amp; Risk Factors for T2DM<br><br><div>•{{c1::Genetics}}\nare a significant contributory factor</div>\n<div>–Family\nhistory</div>\n<div>–Ethnicity:\nAsians\n&gt;\nHispanics &gt; Blacks &gt; Whites</div>\n<div>•Demographic\ncharacteristics</div>\n<div>–Risk\nincreases with age</div>\n<div>–Females\nat higher risk than males</div>\n<div>•Lifestyle</div>\n<div>–Obesity\n(central adiposity), physical inactivity, smoking</div>\n<div>–Too\nmuch or too little sleep</div>\n<div>–Red\nmeat, processed meat and sugary drinks are associated with an increased risk</div>\n<div>–Fruits,\nvegetables, nuts, whole grains and olive oil are associated with a reduced risk</div>\n<div>–Westernisation,\nurbanisation, modernisation</div>\n<div>•Traditionally\na disorder of aging but prevalence of obesity &amp; T2DM in children is rising\ndramatically</div>",
+                ""
+            ],
+            "guid": "e1DM]`>=A`",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Insulin\nResistance<br><br><div>•An\nimpaired biological response to insulin found in T2DM</div>\n<div>•The\npancreas makes insulin but the {{c1::tissues}} don’t respond as well to it</div>\n<div>•Reduced\ninsulin-stimulated glucose transport and metabolism in {{c1::adipocytes}} &amp;\nskeletal {{c1::muscle}}</div>\n<div>•Impaired\n{{c1::suppression}} of hepatic glucose output</div>\n<div>•Insulin\nresistance is usually combined with some degree of {{c1::β}}-cell dysfunction in T2DM<br><div>•Pancreas\nends up producing more insulin in order to get the same</div>\n<div>•β-cell\nhyperplasia and {{c1::hypertrophy}} helps maintain normal glucose levels</div>\n<div>•Over\ntime the pancreas becomes {{c1::hypotrophic}} &amp; hypoplastic &amp; glucose levels rise because of lack of insulin produced by pancreas</div>\n<div>•Diabetic\n{{c1::ketoacidosis}} usually doesn’t develop as there is some insulin which limits\nlipolysis</div></div>",
+                ""
+            ],
+            "guid": "mIzC6tgkYa",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Differentiating between Type 1 and Type 2 Diabetes<br><br>•No\nset criteria, but based on clinical presentation &amp; history, sometimes\nsupported by laboratory studies<div>•Body habitus</div>\n<div>–Children\nwith T1DM usually not obese &amp; recent hx of weight loss</div>\n<div>–T2DM\nusually, but not necessarily, obese</div>\n<div>•Age</div>\n<div>–T1DM\nusually present as children</div>\n<div>–T2DM\nusually present later, but with obesity may present in childhood</div>\n<div>•Insulin\nresistance</div>\n<div>–T2DM\nfrequently have acanthosis nigricans,\n{{c1::hypertension}}, {{c1::dyslipidemia}} and polycystic {{c1::ovary}} syndrome</div>\n<div>•Family\nhistory</div>\n<div>–{{c1::10}}%\nin T1DM</div>\n<div>–Up\nto 75-90% in T2DM<br><br><div>•Laboratory\nTests</div>\n<div>–Auto-{{c1::antibodies}}\nan indicator of T1DM, but may be present in T2DM (?slowly progressive\nautoimmune disease)</div>\n<div>–Higher\nfasting insulin &amp; c-peptide levels in T2DM</div>\n<div>–MODY</div>\n<div>•Family\nHistory in keeping with autosomal dominant inheritance</div>\n<div>•Genetic\ntesting can be arranged</div></div>",
+                ""
+            ],
+            "guid": "AXP1d%4l68",
+            "note_model_uuid": "dbc60e5a-0caf-11ec-907d-acde48001122",
+            "tags": []
+        }
+    ]
+}
